@@ -1,20 +1,27 @@
 div{
-    box-sizing: border-box;
+    box-sizing: border-box;  
 }
 #tabuleiro{
+    margin: auto;
+
     background-color: brown;
     width: 360px;
     height: 360px;
-display: flex;
-flex-wrap: wrap;
-align-content: space-between;
-justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+
 }
 
 #tabuleiro > div {
-    
     width: 117px;
     height: 117px;
     background-color: aqua;
+    font-size: 80px;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
     
 }
